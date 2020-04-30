@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block title %} View {% endblock %}
+{% block content %}
+  {% for it in values %}
+    <div class="col-md-8">
+          <div class="content-section">
+            <p>User {{ it.id }}</p>
+            <p class='text-muted'>database Entries
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-light">username: {{it.username}}</li>
+                <li class="list-group-item list-group-item-light">Email: {{it.email}}</li>
+                <li class="list-group-item list-group-item-light">password: {{it.password}}</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+  {% endfor %}
+{% endblock %}

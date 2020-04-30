@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block title %} View {% endblock %}
+{% block content %}
+	{% for it in values %}
+		<div class="col-md-8">
+          <div class="content-section">
+            <h3>Welcome</h3>
+            <p class='text-muted'>Your Profile.
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-light">username: {{it.username}}</li>
+                <li class="list-group-item list-group-item-light">Email: {{it.email}}</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+         <div class="border-top pt-3" style="float: left;">
+        	<small class="text-muted", style="float: left;">
+            	Add more details <a class="ml-2" href="{{ url_for('details') }}">Click here</a>
+        	</small>
+    	</div>
+	{% endfor %}
+{% endblock %}

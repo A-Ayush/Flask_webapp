@@ -33,6 +33,6 @@ $ . venv/bin/activate
 ## Running Command
 
 With the virtual environment activated you can cd into any of the examples and run the main script.
-
+```
 (venv) $ python mypage.py
-
+```

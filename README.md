@@ -22,10 +22,11 @@
 **Creating Virtual Environment**
 
 You can create a virtual environment and install the required packages with the following commands:
-
+```
 $ virtualenv venv
 $ . venv/bin/activate
 (venv) $ *your source file*
+```
 
 - install all the dependencies as mentioned in **Reqirements**
 

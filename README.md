@@ -1,4 +1,4 @@
-# Flask-Intro with structured format
+# Flask-Intro
 
 *Your can refer to Flask’s documentations.
 [Flask Documentation](https://flask.palletsprojects.com/en/1.1.x/)*
